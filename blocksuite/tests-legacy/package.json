@@ -13,7 +13,7 @@
     "@blocksuite/block-std": "workspace:*",
     "@blocksuite/global": "workspace:*",
     "@blocksuite/presets": "workspace:*",
-    "@playwright/test": "=1.49.1",
+    "@playwright/test": "1.56.0",
     "@toeverything/theme": "^1.1.7"
   },
   "bsImport": {
