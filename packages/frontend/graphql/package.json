@@ -26,8 +26,8 @@
   "dependencies": {
     "@affine/env": "workspace:*",
     "graphql": "^16.9.0",
-    "lodash": "^4.17.21",
-    "lodash-es": "^4.17.21"
+    "lodash": "^4.17.23",
+    "lodash-es": "^4.17.23"
   },
   "installConfig": {
     "hoistingLimits": "workspaces"
