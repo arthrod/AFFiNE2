@@ -840,7 +840,7 @@ __metadata:
     nest-winston: "npm:^1.9.7"
     nestjs-cls: "npm:^4.5.0"
     nestjs-throttler-storage-redis: "npm:^0.5.1"
-    nodemailer: "npm:^6.9.16"
+    nodemailer: "npm:^8.0.4"
     nodemon: "npm:^3.1.7"
     on-headers: "npm:^1.0.2"
     openai: "npm:^4.76.2"
@@ -27456,10 +27456,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:^6.9.16":
-  version: 6.9.16
-  resolution: "nodemailer@npm:6.9.16"
-  checksum: 10/f131888d3111238fde4ee03539e62f1764b99365ff31d556dde0367dfefcee1f2eb8948558f35ba84fe5cd805f2d01294eee63a5675d3aa501e7df548a2518ce
+"nodemailer@npm:^8.0.4":
+  version: 8.0.4
+  resolution: "nodemailer@npm:8.0.4"
+  checksum: 10/b396d52b1faf3ee73a6eca1b7febdb8ea16df50d6c41efbf0f1e500e6a42a73cea5e0db9e52d64b34f509ac3dbf4c10fe828de6cb3f66899b493be38b8abe926
   languageName: node
   linkType: hard
 
