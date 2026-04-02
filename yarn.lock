@@ -118,7 +118,7 @@ __metadata:
     html-webpack-plugin: "npm:^5.6.3"
     inquirer: "npm:^12.3.0"
     jsonc-parser: "npm:^3.3.1"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     mime-types: "npm:^2.1.35"
     mini-css-extract-plugin: "npm:^2.9.2"
     postcss: "npm:^8.4.49"
@@ -148,7 +148,7 @@ __metadata:
     "@types/lodash-es": "npm:^4.17.12"
     "@types/node": "npm:^22.0.0"
     chalk: "npm:^5.3.0"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     typescript: "npm:^5.5.4"
   languageName: unknown
   linkType: soft
@@ -309,7 +309,7 @@ __metadata:
     dayjs: "npm:^1.11.13"
     jotai: "npm:^2.10.3"
     lit: "npm:^3.2.1"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     lottie-react: "npm:^2.4.0"
     lottie-web: "npm:^5.12.2"
     nanoid: "npm:^5.0.9"
@@ -411,7 +411,7 @@ __metadata:
     jotai-scope: "npm:^0.7.2"
     lib0: "npm:^0.2.99"
     lit: "npm:^3.2.1"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     lottie-react: "npm:^2.4.0"
     nanoid: "npm:^5.0.9"
     next-themes: "npm:^0.4.4"
@@ -529,7 +529,7 @@ __metadata:
     fs-extra: "npm:^11.2.0"
     glob: "npm:^11.0.0"
     link-preview-js: "npm:^3.0.12"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     msw: "npm:^2.6.8"
     nanoid: "npm:^5.0.9"
     next-themes: "npm:^0.4.4"
@@ -571,7 +571,7 @@ __metadata:
     "@types/lodash-es": "npm:^4.17.12"
     graphql: "npm:^16.9.0"
     lodash: "npm:^4.17.21"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     prettier: "npm:^3.4.2"
     vitest: "npm:3.0.2"
   languageName: unknown
@@ -719,7 +719,7 @@ __metadata:
     eventemitter2: "npm:^6.4.9"
     fake-indexeddb: "npm:^6.0.0"
     idb: "npm:^8.0.0"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     nanoid: "npm:^5.0.9"
     rxjs: "npm:^7.8.1"
     socket.io-client: "npm:^4.8.1"
@@ -832,7 +832,7 @@ __metadata:
     ioredis: "npm:^5.4.1"
     is-mobile: "npm:^5.0.0"
     keyv: "npm:^5.2.2"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     mixpanel: "npm:^0.18.0"
     mustache: "npm:^4.2.0"
     nanoid: "npm:^5.0.9"
@@ -13980,7 +13980,7 @@ __metadata:
     idb: "npm:^8.0.0"
     jotai: "npm:^2.10.3"
     jotai-effect: "npm:^1.0.5"
-    lodash-es: "npm:^4.17.21"
+    lodash-es: "npm:^4.18.1"
     nanoid: "npm:^5.0.9"
     react: "npm:19.0.0"
     rxjs: "npm:^7.8.1"
@@ -25273,6 +25273,13 @@ __metadata:
   version: 4.17.21
   resolution: "lodash-es@npm:4.17.21"
   checksum: 10/03f39878ea1e42b3199bd3f478150ab723f93cc8730ad86fec1f2804f4a07c6e30deaac73cad53a88e9c3db33348bb8ceeb274552390e7a75d7849021c02df43
+  languageName: node
+  linkType: hard
+
+"lodash-es@npm:^4.18.1":
+  version: 4.18.1
+  resolution: "lodash-es@npm:4.18.1"
+  checksum: 10/8bfad225ef09ef42b04283cdaf7830efcc2ba29ae41b56501c74422155ee1ccaa1f0f6e8319def3451a1fe54dec501c8e4bee622bae2b2d98ac993731e0a5cce
   languageName: node
   linkType: hard
 
