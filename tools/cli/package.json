@@ -45,7 +45,7 @@
     "typanion": "^3.14.0",
     "typescript": "^5.5.4",
     "webpack": "^5.97.1",
-    "webpack-dev-server": "^5.2.0",
+    "webpack-dev-server": "^5.2.4",
     "webpack-merge": "^6.0.1"
   },
   "devDependencies": {
