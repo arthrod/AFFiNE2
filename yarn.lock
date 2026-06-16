@@ -667,7 +667,7 @@ __metadata:
     "@types/node": "npm:^22.0.0"
     "@typescript-eslint/parser": "npm:^8.18.0"
     "@vanilla-extract/vite-plugin": "npm:^4.0.18"
-    "@vitest/browser": "npm:3.0.2"
+    "@vitest/browser": "npm:3.2.5"
     "@vitest/coverage-istanbul": "npm:3.0.2"
     "@vitest/ui": "npm:3.0.2"
     cross-env: "npm:^7.0.3"
@@ -13949,12 +13949,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:^14.6.0":
-  version: 14.6.0
-  resolution: "@testing-library/user-event@npm:14.6.0"
+"@testing-library/user-event@npm:^14.6.1":
+  version: 14.6.1
+  resolution: "@testing-library/user-event@npm:14.6.1"
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: 10/01a7481642ceda10324ff5356e3cfd9c6131b0cecbcbdd5938096d4d3f8ce9e548e9b460ef35bad8f3649dc392c808044a5abd78de8218a4bc21c91125be85df
+  checksum: 10/34b74fff56a0447731a94b40d4cf246deb8dbc1c1e3aec93acd1c3377a760bb062e979f1572bb34ec164ad28ee2a391744b42d0d6d6cc16c4ce527e5e09610e1
   languageName: node
   linkType: hard
 
@@ -15531,23 +15531,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/browser@npm:3.0.2":
-  version: 3.0.2
-  resolution: "@vitest/browser@npm:3.0.2"
+"@vitest/browser@npm:3.2.5":
+  version: 3.2.5
+  resolution: "@vitest/browser@npm:3.2.5"
   dependencies:
     "@testing-library/dom": "npm:^10.4.0"
-    "@testing-library/user-event": "npm:^14.6.0"
-    "@vitest/mocker": "npm:3.0.2"
-    "@vitest/utils": "npm:3.0.2"
+    "@testing-library/user-event": "npm:^14.6.1"
+    "@vitest/mocker": "npm:3.2.5"
+    "@vitest/utils": "npm:3.2.5"
     magic-string: "npm:^0.30.17"
-    msw: "npm:^2.7.0"
-    sirv: "npm:^3.0.0"
+    sirv: "npm:^3.0.1"
     tinyrainbow: "npm:^2.0.0"
-    ws: "npm:^8.18.0"
+    ws: "npm:^8.18.2"
   peerDependencies:
     playwright: "*"
-    vitest: 3.0.2
-    webdriverio: "*"
+    vitest: 3.2.5
+    webdriverio: ^7.0.0 || ^8.0.0 || ^9.0.0
   peerDependenciesMeta:
     playwright:
       optional: true
@@ -15555,7 +15554,7 @@ __metadata:
       optional: true
     webdriverio:
       optional: true
-  checksum: 10/b76a2db98332500c89c03b6ad6f829753b1fc8b39cf4927f314d56d38acd8259a9d8dc02590648011ab33b14b051238279c8adfcfa86a5189949af1b19a10c48
+  checksum: 10/15fc11583f28724afb3c01375189d775b9c54cf616d3611298175dabbc6023d4df5454b3faf77ea9862b863f8d4d09d6181c51648fbaf3514624d9f8e591ccb1
   languageName: node
   linkType: hard
 
@@ -15622,6 +15621,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vitest/mocker@npm:3.2.5":
+  version: 3.2.5
+  resolution: "@vitest/mocker@npm:3.2.5"
+  dependencies:
+    "@vitest/spy": "npm:3.2.5"
+    estree-walker: "npm:^3.0.3"
+    magic-string: "npm:^0.30.17"
+  peerDependencies:
+    msw: ^2.4.9
+    vite: ^5.0.0 || ^6.0.0 || ^7.0.0-0
+  peerDependenciesMeta:
+    msw:
+      optional: true
+    vite:
+      optional: true
+  checksum: 10/b1547d7caa783b6a991f771acd7d510998e9ade3c10e1f82383fa09bd2233683401851d11ec7d573fda9ec0863b61d923142c30a48b3006a401e0bedfd6baf32
+  languageName: node
+  linkType: hard
+
 "@vitest/pretty-format@npm:2.0.5":
   version: 2.0.5
   resolution: "@vitest/pretty-format@npm:2.0.5"
@@ -15646,6 +15664,15 @@ __metadata:
   dependencies:
     tinyrainbow: "npm:^2.0.0"
   checksum: 10/4c8d044df5af71ae6d01b8391a8d6422f252bc4b04da2a4ec0fa45dea86a2b259bec279a42ecd30bdae792fb517eb373d517f4292bc5025631850edccfdcae1e
+  languageName: node
+  linkType: hard
+
+"@vitest/pretty-format@npm:3.2.5":
+  version: 3.2.5
+  resolution: "@vitest/pretty-format@npm:3.2.5"
+  dependencies:
+    tinyrainbow: "npm:^2.0.0"
+  checksum: 10/eae0e65aba0fe1160dfe304701711dbad3d499e988cbdac8f8bf4b38cdb77b480df294288732fc846add0ea325873291f9e487ebd8e510967f5909e0fd3f0117
   languageName: node
   linkType: hard
 
@@ -15688,6 +15715,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vitest/spy@npm:3.2.5":
+  version: 3.2.5
+  resolution: "@vitest/spy@npm:3.2.5"
+  dependencies:
+    tinyspy: "npm:^4.0.3"
+  checksum: 10/e850ffc8f28f712348fc4db262426f230cd092a9c773d5fb35777c3148a3dc0827ffd8d490aec96b921f0d5edd97a7288fec171b052c4c4400dee44372312a29
+  languageName: node
+  linkType: hard
+
 "@vitest/ui@npm:3.0.2":
   version: 3.0.2
   resolution: "@vitest/ui@npm:3.0.2"
@@ -15725,6 +15761,17 @@ __metadata:
     loupe: "npm:^3.1.2"
     tinyrainbow: "npm:^2.0.0"
   checksum: 10/d66fa335eb9690267db9dd66911804f688f5d3c1c28f48122304819b9d9d9ba450a767dad6de92bf4cf030248b8adfb1255a88538ea7bf899d50d1cdd1032bff
+  languageName: node
+  linkType: hard
+
+"@vitest/utils@npm:3.2.5":
+  version: 3.2.5
+  resolution: "@vitest/utils@npm:3.2.5"
+  dependencies:
+    "@vitest/pretty-format": "npm:3.2.5"
+    loupe: "npm:^3.1.4"
+    tinyrainbow: "npm:^2.0.0"
+  checksum: 10/63a053a9b473843920e52980d3f01bf9b746fed88b752f74c6e0ac6ef7c1af4b2cc62611acf1547e529738724fe507223ad9af8f1762c2e22619f0e44fcbe3af
   languageName: node
   linkType: hard
 
@@ -25581,6 +25628,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"loupe@npm:^3.1.4":
+  version: 3.2.1
+  resolution: "loupe@npm:3.2.1"
+  checksum: 10/a4d78ec758aaa04e0e35d5cd1c15e970beb9cdbfd3d0f34f98b9bcda489f896a7190b3b6cc40b7a6dcb8e97e82e96eafaae10096aaa469804acdba6f7c2bde5f
+  languageName: node
+  linkType: hard
+
 "lower-case-first@npm:^2.0.2":
   version: 2.0.2
   resolution: "lower-case-first@npm:2.0.2"
@@ -27015,7 +27069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:^2.6.8, msw@npm:^2.7.0":
+"msw@npm:^2.6.8":
   version: 2.7.0
   resolution: "msw@npm:2.7.0"
   dependencies:
@@ -31596,6 +31650,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sirv@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "sirv@npm:3.0.2"
+  dependencies:
+    "@polka/url": "npm:^1.0.0-next.24"
+    mrmime: "npm:^2.0.0"
+    totalist: "npm:^3.0.0"
+  checksum: 10/259617f4ab57664be6d963f5b27b38a6351d3e91ce70d6726985d087b40efd595fcf7f72ae010babf5e0acb63bcb3e3d6db8de34604da1011be6e28ee32aa15d
+  languageName: node
+  linkType: hard
+
 "sisteransi@npm:^1.0.5":
   version: 1.0.5
   resolution: "sisteransi@npm:1.0.5"
@@ -33042,6 +33107,13 @@ __metadata:
   version: 3.0.2
   resolution: "tinyspy@npm:3.0.2"
   checksum: 10/5db671b2ff5cd309de650c8c4761ca945459d7204afb1776db9a04fb4efa28a75f08517a8620c01ee32a577748802231ad92f7d5b194dc003ee7f987a2a06337
+  languageName: node
+  linkType: hard
+
+"tinyspy@npm:^4.0.3":
+  version: 4.0.4
+  resolution: "tinyspy@npm:4.0.4"
+  checksum: 10/858a99e3ded2fba8fe7c243099d9e58e926d6525af03d19cdf86c1a9a30398161fb830b4f77890d266bcc1c69df08fa6f4baf29d089385e4cdaa98d7b6296e7c
   languageName: node
   linkType: hard
 
@@ -34985,6 +35057,21 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 10/9c796b84ba80ffc2c2adcdfc9c8e9a219ba99caa435c9a8d45f9ac593bba325563b3f83edc5eb067cc6d21b9a6bf2c930adf76dd40af5f58a5ca6859e81858f0
+  languageName: node
+  linkType: hard
+
+"ws@npm:^8.18.2":
+  version: 8.21.0
+  resolution: "ws@npm:8.21.0"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 10/088411956432c8f876158409d5a285cb9ad1382f593391f51d3a599bd0a5b277f876609ebd00fc3596321c4a4c9064d6fffe1ebad960e8ea7fd9ae25324f35c2
   languageName: node
   linkType: hard
 
