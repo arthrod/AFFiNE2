@@ -3797,7 +3797,7 @@ __metadata:
     "@lit/context": "npm:^1.1.2"
     "@preact/signals-core": "npm:^1.8.0"
     "@types/hast": "npm:^3.0.4"
-    dompurify: "npm:^3.1.6"
+    dompurify: "npm:^3.4.9"
     fractional-indexing: "npm:^3.2.0"
     lib0: "npm:^0.2.97"
     lit: "npm:^3.2.0"
@@ -3852,7 +3852,7 @@ __metadata:
     "@types/lodash.isequal": "npm:^4.5.8"
     "@vanilla-extract/css": "npm:^1.17.0"
     date-fns: "npm:^4.0.0"
-    dompurify: "npm:^3.1.6"
+    dompurify: "npm:^3.4.9"
     fflate: "npm:^0.8.2"
     file-type: "npm:^20.0.0"
     fractional-indexing: "npm:^3.2.0"
@@ -19784,15 +19784,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.1.6":
-  version: 3.2.3
-  resolution: "dompurify@npm:3.2.3"
+"dompurify@npm:^3.4.9":
+  version: 3.4.9
+  resolution: "dompurify@npm:3.4.9"
   dependencies:
     "@types/trusted-types": "npm:^2.0.7"
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: 10/aad472bcdff40afdbb307fd02abbca86acefee9c39cb35e9634ebbc5e047750a7eeb021b02cd66894d60cf75ad021f69394de2e9e8786b0dd91c5832f497a9af
+  checksum: 10/2d651dcf413646e4a66202b424eade1f2a793fb22fe83dcb5a0800349ad879344fd92e76fd494ef06fb10ecb051660207844e7900156cef3e61942fdac405aa0
   languageName: node
   linkType: hard
 
