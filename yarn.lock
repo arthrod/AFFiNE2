@@ -588,7 +588,7 @@ __metadata:
     i18next: "npm:^24.1.0"
     react: "npm:^19.0.0"
     react-i18next: "npm:^15.2.0"
-    undici: "npm:^7.1.0"
+    undici: "npm:^7.28.0"
     vitest: "npm:3.0.2"
   languageName: unknown
   linkType: soft
@@ -33680,10 +33680,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^7.1.0":
-  version: 7.2.3
-  resolution: "undici@npm:7.2.3"
-  checksum: 10/92870d186682c19f4b9909e4b6229a88b4e73e6e12d7a3e151033cefb66579bdc1d36e46d97e386161ba0afcd84b718e917fca7b7f08d409d918689343034c09
+"undici@npm:^7.28.0":
+  version: 7.28.0
+  resolution: "undici@npm:7.28.0"
+  checksum: 10/154423b280d623278a61decb437f8a7e581fb18b8c95556ef956b32a58cd668eadbb812d28e20678cb2dc545a566f35a3afc0962307ca801da30f4741117986d
   languageName: node
   linkType: hard
 
